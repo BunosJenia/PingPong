@@ -15,6 +15,8 @@
 		E3480C0124B4AA39007B7D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480BFF24B4AA39007B7D19 /* Main.storyboard */; };
 		E3480C0324B4AA41007B7D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3480C0224B4AA41007B7D19 /* Assets.xcassets */; };
 		E3480C0624B4AA41007B7D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480C0424B4AA41007B7D19 /* LaunchScreen.storyboard */; };
+		E3480C0F24B4D7BE007B7D19 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3480C0E24B4D7BE007B7D19 /* LLPIXEL3.ttf */; };
+		E3480C1124B50AFC007B7D19 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C1024B50AFC007B7D19 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E3480C0224B4AA41007B7D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3480C0524B4AA41007B7D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3480C0724B4AA41007B7D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3480C0E24B4D7BE007B7D19 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLPIXEL3.ttf; path = ../../../../Downloads/LLPIXEL3.ttf; sourceTree = "<group>"; };
+		E3480C1024B50AFC007B7D19 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		E3480BF424B4AA39007B7D19 /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
+				E3480C0E24B4D7BE007B7D19 /* LLPIXEL3.ttf */,
 				E3480BF524B4AA39007B7D19 /* AppDelegate.swift */,
 				E3480BF724B4AA39007B7D19 /* GameScene.sks */,
 				E3480BF924B4AA39007B7D19 /* Actions.sks */,
@@ -69,6 +74,7 @@
 				E3480C0224B4AA41007B7D19 /* Assets.xcassets */,
 				E3480C0424B4AA41007B7D19 /* LaunchScreen.storyboard */,
 				E3480C0724B4AA41007B7D19 /* Info.plist */,
+				E3480C1024B50AFC007B7D19 /* MenuViewController.swift */,
 			);
 			path = PingPong;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3480C0124B4AA39007B7D19 /* Main.storyboard in Resources */,
+				E3480C0F24B4D7BE007B7D19 /* LLPIXEL3.ttf in Resources */,
 				E3480BF824B4AA39007B7D19 /* GameScene.sks in Resources */,
 				E3480C0324B4AA41007B7D19 /* Assets.xcassets in Resources */,
 				E3480C0624B4AA41007B7D19 /* LaunchScreen.storyboard in Resources */,
@@ -149,6 +156,7 @@
 				E3480BFC24B4AA39007B7D19 /* GameScene.swift in Sources */,
 				E3480BFE24B4AA39007B7D19 /* GameViewController.swift in Sources */,
 				E3480BF624B4AA39007B7D19 /* AppDelegate.swift in Sources */,
+				E3480C1124B50AFC007B7D19 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
