@@ -9,29 +9,31 @@
 /* Begin PBXBuildFile section */
 		E3480BF624B4AA39007B7D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480BF524B4AA39007B7D19 /* AppDelegate.swift */; };
 		E3480BF824B4AA39007B7D19 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3480BF724B4AA39007B7D19 /* GameScene.sks */; };
-		E3480BFA24B4AA39007B7D19 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3480BF924B4AA39007B7D19 /* Actions.sks */; };
 		E3480BFC24B4AA39007B7D19 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480BFB24B4AA39007B7D19 /* GameScene.swift */; };
 		E3480BFE24B4AA39007B7D19 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480BFD24B4AA39007B7D19 /* GameViewController.swift */; };
 		E3480C0124B4AA39007B7D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480BFF24B4AA39007B7D19 /* Main.storyboard */; };
 		E3480C0324B4AA41007B7D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3480C0224B4AA41007B7D19 /* Assets.xcassets */; };
 		E3480C0624B4AA41007B7D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480C0424B4AA41007B7D19 /* LaunchScreen.storyboard */; };
-		E3480C0F24B4D7BE007B7D19 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3480C0E24B4D7BE007B7D19 /* LLPIXEL3.ttf */; };
 		E3480C1124B50AFC007B7D19 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C1024B50AFC007B7D19 /* MenuViewController.swift */; };
+		E3480CD024BCF1B6007B7D19 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3480CCF24BCF1B6007B7D19 /* LLPIXEL3.ttf */; };
+		E3480CD224BCF23D007B7D19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3480CD124BCF23D007B7D19 /* README.md */; };
+		E3480CD424BCF2A9007B7D19 /* pingpong.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3480CD324BCF2A9007B7D19 /* pingpong.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3480BF224B4AA39007B7D19 /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3480BF524B4AA39007B7D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3480BF724B4AA39007B7D19 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E3480BF924B4AA39007B7D19 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E3480BFB24B4AA39007B7D19 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E3480BFD24B4AA39007B7D19 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E3480C0024B4AA39007B7D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3480C0224B4AA41007B7D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3480C0524B4AA41007B7D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3480C0724B4AA41007B7D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3480C0E24B4D7BE007B7D19 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLPIXEL3.ttf; path = ../../../../Downloads/LLPIXEL3.ttf; sourceTree = "<group>"; };
 		E3480C1024B50AFC007B7D19 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E3480CCF24BCF1B6007B7D19 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLPIXEL3.ttf; path = ../../../../../Downloads/LLPIXEL3.ttf; sourceTree = "<group>"; };
+		E3480CD124BCF23D007B7D19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3480CD324BCF2A9007B7D19 /* pingpong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pingpong.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,8 @@
 		E3480BE924B4AA38007B7D19 = {
 			isa = PBXGroup;
 			children = (
+				E3480CD124BCF23D007B7D19 /* README.md */,
+				E3480CD324BCF2A9007B7D19 /* pingpong.gif */,
 				E3480BF424B4AA39007B7D19 /* PingPong */,
 				E3480BF324B4AA39007B7D19 /* Products */,
 			);
@@ -64,19 +68,50 @@
 		E3480BF424B4AA39007B7D19 /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
-				E3480C0E24B4D7BE007B7D19 /* LLPIXEL3.ttf */,
+				E3480CCD24BCF0FD007B7D19 /* Resources */,
+				E3480CCA24BCF0B8007B7D19 /* Scenes */,
+				E3480CC924BCF0A1007B7D19 /* Controllers */,
+				E3480CC724BCF090007B7D19 /* Fonts */,
 				E3480BF524B4AA39007B7D19 /* AppDelegate.swift */,
-				E3480BF724B4AA39007B7D19 /* GameScene.sks */,
-				E3480BF924B4AA39007B7D19 /* Actions.sks */,
-				E3480BFB24B4AA39007B7D19 /* GameScene.swift */,
+				E3480C0724B4AA41007B7D19 /* Info.plist */,
+			);
+			path = PingPong;
+			sourceTree = "<group>";
+		};
+		E3480CC724BCF090007B7D19 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E3480CCF24BCF1B6007B7D19 /* LLPIXEL3.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E3480CC924BCF0A1007B7D19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C1024B50AFC007B7D19 /* MenuViewController.swift */,
 				E3480BFD24B4AA39007B7D19 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3480CCA24BCF0B8007B7D19 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3480BFB24B4AA39007B7D19 /* GameScene.swift */,
+				E3480BF724B4AA39007B7D19 /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E3480CCD24BCF0FD007B7D19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E3480BFF24B4AA39007B7D19 /* Main.storyboard */,
 				E3480C0224B4AA41007B7D19 /* Assets.xcassets */,
 				E3480C0424B4AA41007B7D19 /* LaunchScreen.storyboard */,
-				E3480C0724B4AA41007B7D19 /* Info.plist */,
-				E3480C1024B50AFC007B7D19 /* MenuViewController.swift */,
 			);
-			path = PingPong;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,12 +172,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3480CD224BCF23D007B7D19 /* README.md in Resources */,
 				E3480C0124B4AA39007B7D19 /* Main.storyboard in Resources */,
-				E3480C0F24B4D7BE007B7D19 /* LLPIXEL3.ttf in Resources */,
+				E3480CD024BCF1B6007B7D19 /* LLPIXEL3.ttf in Resources */,
 				E3480BF824B4AA39007B7D19 /* GameScene.sks in Resources */,
+				E3480CD424BCF2A9007B7D19 /* pingpong.gif in Resources */,
 				E3480C0324B4AA41007B7D19 /* Assets.xcassets in Resources */,
 				E3480C0624B4AA41007B7D19 /* LaunchScreen.storyboard in Resources */,
-				E3480BFA24B4AA39007B7D19 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
